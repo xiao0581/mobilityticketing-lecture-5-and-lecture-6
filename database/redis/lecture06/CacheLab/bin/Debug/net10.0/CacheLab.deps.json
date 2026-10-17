@@ -1,0 +1,208 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CacheLab/1.0.0": {
+        "dependencies": {
+          "MongoDB.Driver": "3.12.0",
+          "StackExchange.Redis": "3.4.5"
+        },
+        "runtime": {
+          "CacheLab.dll": {}
+        }
+      },
+      "DnsClient/1.6.1": {
+        "runtime": {
+          "lib/net5.0/DnsClient.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.5": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/10.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.5"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "MongoDB.Bson/3.12.0": {
+        "runtime": {
+          "lib/net6.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "3.12.0.0",
+            "fileVersion": "3.12.0.0"
+          }
+        }
+      },
+      "MongoDB.Driver/3.12.0": {
+        "dependencies": {
+          "DnsClient": "1.6.1",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.5",
+          "MongoDB.Bson": "3.12.0",
+          "SharpCompress": "0.48.1",
+          "Snappier": "1.3.1",
+          "ZstdSharp.Port": "0.7.3"
+        },
+        "runtime": {
+          "lib/net6.0/MongoDB.Driver.dll": {
+            "assemblyVersion": "3.12.0.0",
+            "fileVersion": "3.12.0.0"
+          }
+        }
+      },
+      "RESPite/3.4.5": {
+        "runtime": {
+          "lib/net10.0/RESPite.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.4.5.54687"
+          }
+        }
+      },
+      "SharpCompress/0.48.1": {
+        "runtime": {
+          "lib/net10.0/SharpCompress.dll": {
+            "assemblyVersion": "0.48.1.0",
+            "fileVersion": "0.48.1.0"
+          }
+        }
+      },
+      "Snappier/1.3.1": {
+        "runtime": {
+          "lib/net8.0/Snappier.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "StackExchange.Redis/3.4.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.5",
+          "RESPite": "3.4.5",
+          "System.IO.Hashing": "10.0.12"
+        },
+        "runtime": {
+          "lib/net10.0/StackExchange.Redis.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.4.5.54687"
+          }
+        }
+      },
+      "System.IO.Hashing/10.0.12": {
+        "runtime": {
+          "lib/net10.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "ZstdSharp.Port/0.7.3": {
+        "runtime": {
+          "lib/net7.0/ZstdSharp.dll": {
+            "assemblyVersion": "0.7.3.0",
+            "fileVersion": "0.7.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CacheLab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DnsClient/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
+      "path": "dnsclient/1.6.1",
+      "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iVMtq9eRvzyhx8949EGT0OCYJfXi737SbRVzWXE5GrOgGj5AaZ9eUuxA/BSUfmOMALKn/g8KfFaNQw0eiB3lyA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9HOdqlDtPptVcmKAjsQ/Nr5Rxfq6FMYLdhvZh1lVmeKR738qeYecQD7+ldooXf+u2KzzR1kafSphWngIM3C6ug==",
+      "path": "microsoft.extensions.logging.abstractions/10.0.5",
+      "hashPath": "microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512"
+    },
+    "MongoDB.Bson/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2iYGykWDl6Wkx2GHjWaPEGAS49lxQN5YFFT1a7l/pKraMo1gqT4aZckhwu53WMinQTc10R4FxUHoo7X9M20GFg==",
+      "path": "mongodb.bson/3.12.0",
+      "hashPath": "mongodb.bson.3.12.0.nupkg.sha512"
+    },
+    "MongoDB.Driver/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KiUb/h/p5JZ15Vmxa5uuJKHzbsjGkN9aH6RrAtwTUGTelhgypZ784hKjdu8IM18ag93Ck/i9GgyP/erb17Cbqw==",
+      "path": "mongodb.driver/3.12.0",
+      "hashPath": "mongodb.driver.3.12.0.nupkg.sha512"
+    },
+    "RESPite/3.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EzMx67+IXC8lQRI78yeSBWKCTn9qvSIaale6XZ1RJLKpr2NJqmptgn3UqgguWqoeGUsoohiy3SWeiVLAj1n9DA==",
+      "path": "respite/3.4.5",
+      "hashPath": "respite.3.4.5.nupkg.sha512"
+    },
+    "SharpCompress/0.48.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SqGaVniGG943Gph/gHhUQUiZPyC7y0tXZyMf0/B2oGsMav9dqs7JJOuUA+xOkwKYaWM2TM7aZQjNK91f4bX71A==",
+      "path": "sharpcompress/0.48.1",
+      "hashPath": "sharpcompress.0.48.1.nupkg.sha512"
+    },
+    "Snappier/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOdDQiO8YZ5rBtVLY+6CmR1yp9WYoJRgEEktPBrR0tEj9QO2djA/zv0O3DX0OZpEAfosbY8pytQ9tQUogwQsEA==",
+      "path": "snappier/1.3.1",
+      "hashPath": "snappier.1.3.1.nupkg.sha512"
+    },
+    "StackExchange.Redis/3.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LtbEuNmaW6N75tvLAlXoDGDJHTCwmrHFL8/9OeQknWoCWcZhUcUnPvG2ijSO7tTyC7XID9LskIu42spa0b/nMQ==",
+      "path": "stackexchange.redis/3.4.5",
+      "hashPath": "stackexchange.redis.3.4.5.nupkg.sha512"
+    },
+    "System.IO.Hashing/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jDix4bBMYnpZdSPcnY+KDV6ik3SRMzpMKby/bZl/XUwIiflwRNAFZ0oOl61R/pSaveIJ8t1gs2BUlrGsPs/bcg==",
+      "path": "system.io.hashing/10.0.12",
+      "hashPath": "system.io.hashing.10.0.12.nupkg.sha512"
+    },
+    "ZstdSharp.Port/0.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
+      "path": "zstdsharp.port/0.7.3",
+      "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
+    }
+  }
+}
